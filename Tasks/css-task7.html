@@ -29,7 +29,7 @@ label {
 }
 
 input, textarea {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   border: 1px solid #ccc;
   margin-bottom: 10px;
@@ -46,6 +46,11 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #3e8b7c;
 }
+
+.radio{
+  width: 13px;
+}
+    
   </style>
 </head>
 <body>
@@ -68,11 +73,11 @@ input[type="submit"]:hover {
           <input type="tel" id="phone" name="phone" placeholder="Your phone number">
           <br>
           <label for="gender">Gender:</label>
-          <input type="radio" id="male" name="gender" value="male">
+          <input class="radio" type="radio" id="male" name="gender" value="male">
           <label for="male">Male</label>
-          <input type="radio" id="female" name="gender" value="female">
+          <input class="radio" type="radio" id="female" name="gender" value="female">
           <label for="female">Female</label>
-          <input type="radio" id="other" name="gender" value="other">
+          <input class="radio" type="radio" id="other" name="gender" value="other">
           <label for="other">Other</label>
           <br>
           <label for="language">Language:</label>
